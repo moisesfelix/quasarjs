@@ -27,7 +27,7 @@
             </q-card>
         </q-dialog>
 
-        <q-btn label="Voltar" color="grey" @click="goBack" />
+        <q-btn label="Voltar" color="green" @click="goBack" />
     </div>
 </template>
   

@@ -3,7 +3,7 @@
         <q-form @submit="saveChanges" class="q-ma-md">
             <q-input v-model="form.name" label="Nome" type="text" required></q-input>
             <q-input v-model="form.active" label="Ativo" type="number" required></q-input>
-            <q-btn label="Voltar" color="grey" @click="goBack" />
+            <q-btn label="Voltar" color="green" @click="goBack" />
             <q-btn label="Salvar" color="primary" type="submit"></q-btn>
         </q-form>
     </div>
